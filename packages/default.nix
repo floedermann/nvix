@@ -30,8 +30,8 @@ let
     self.nvixPlugins.lsp
 
     # Productivity
-    self.nvixPlugins.autosession
-    self.nvixPlugins.ai
+    # self.nvixPlugins.autosession
+    # self.nvixPlugins.ai
   ];
   fullModules = coreModules ++ [
     self.nvixPlugins.tex
